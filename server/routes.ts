@@ -3,17 +3,8 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { propertyData, contactSchema } from "@shared/schema";
 import { ZodError } from "zod";
-import path from "path";
-import { fileURLToPath } from 'url';
-import express from 'express';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 export function registerRoutes(app: Express): Server {
-  // Serve static files from the public directory
-  app.use(express.static(path.join(__dirname, '../public')));
-
   app.get("/api/properties", (_req, res) => {
     res.json(propertyData);
   });
