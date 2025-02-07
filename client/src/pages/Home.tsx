@@ -1,9 +1,10 @@
 import { useQuery } from "@tanstack/react-query";
 import PropertyCard from "@/components/PropertyCard";
 import { Skeleton } from "@/components/ui/skeleton";
+import type { Property } from "@shared/schema";
 
 export default function Home() {
-  const { data: properties, isLoading } = useQuery({
+  const { data: properties, isLoading } = useQuery<Property[]>({
     queryKey: ["/api/properties"],
   });
 

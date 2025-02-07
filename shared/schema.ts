@@ -41,9 +41,9 @@ export const propertyData = [
       "Pet friendly",
     ],
     images: [
-      "/propertypics/property1.jpg",
-      "/propertypics/property1.jpg",
-      "/propertypics/property1.jpg",
+      "/images/property1-1.svg",
+      "/images/property1-2.svg",
+      "/images/property1-3.svg",
     ],
   },
   {
@@ -63,9 +63,9 @@ export const propertyData = [
       "24/7 security",
     ],
     images: [
-      "/propertypics/property2.jpg",
-      "/propertypics/property2.jpg",
-      "/propertypics/property2.jpg",
+      "/images/property1-1.svg",
+      "/images/property1-2.svg",
+      "/images/property1-3.svg",
     ],
   },
   {
@@ -85,9 +85,9 @@ export const propertyData = [
       "Walk to campus",
     ],
     images: [
-      "/propertypics/property3.jpg",
-      "/propertypics/property3.jpg",
-      "/propertypics/property3.jpg",
+      "/images/property1-1.svg",
+      "/images/property1-2.svg",
+      "/images/property1-3.svg",
     ],
   },
   {
@@ -107,9 +107,9 @@ export const propertyData = [
       "Modern design",
     ],
     images: [
-      "/propertypics/property4.jpg",
-      "/propertypics/property4.jpg",
-      "/propertypics/property4.jpg",
+      "/images/property1-1.svg",
+      "/images/property1-2.svg",
+      "/images/property1-3.svg",
     ],
   },
 ];

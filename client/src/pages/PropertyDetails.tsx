@@ -4,12 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import ImageGallery from "@/components/ImageGallery";
 import { Bed, Bath, Ruler, DollarSign, Check } from "lucide-react";
+import type { Property } from "@shared/schema";
 
 export default function PropertyDetails() {
   const [, params] = useRoute("/property/:id");
   const id = params?.id;
 
-  const { data: property, isLoading } = useQuery({
+  const { data: property, isLoading } = useQuery<Property>({
     queryKey: [`/api/properties/${id}`],
   });
 
