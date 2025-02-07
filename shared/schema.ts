@@ -42,8 +42,18 @@ export const propertyData = [
     ],
     images: [
       "/images/property1/property1 (1).jpg",
-
-      
+      "/images/property1/property1 (2).jpg",
+      "/images/property1/property1 (3).jpg",
+      "/images/property1/property1 (4).jpg",
+      "/images/property1/property1 (5).jpg",
+      "/images/property1/property1 (6).jpg",
+      "/images/property1/property1 (7).jpg",
+      "/images/property1/property1 (8).jpg",
+      "/images/property1/property1 (9).jpg",
+      "/images/property1/property1 (10).jpg",
+      "/images/property1/property1 (11).jpg",
+      "/images/property1/property1 (12).jpg",
+      "/images/property1/property1 (13).jpg",
     ],
   },
   {
