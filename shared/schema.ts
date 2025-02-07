@@ -41,9 +41,9 @@ export const propertyData = [
       "Pet friendly",
     ],
     images: [
-      "/images/placeholder.svg",
-      "/images/placeholder.svg",
-      "/images/placeholder.svg",
+      "/images/property1-1.svg",
+      "/images/property1-2.svg",
+      "/images/property1-3.svg",
     ],
   },
   {
